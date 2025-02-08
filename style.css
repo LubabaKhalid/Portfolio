@@ -1,0 +1,24 @@
+body {
+    background-color:rgb(36, 148, 185); /* Light blue background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #00008B; /* Dark blue menu bar */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.navbar a:hover {
+    background-color: #1E90FF; /* Bright blue hover effect */
+}
+    
