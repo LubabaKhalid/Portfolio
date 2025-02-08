@@ -4,11 +4,12 @@ body {
     font-family: Arial, sans-serif;
 }
 .navbar {
-    background-color: #00008B; /* Dark blue menu bar */
+    background: linear-gradient(135deg, #00008B, #1E90FF); /* Gradient background */
     padding: 15px;
     display: flex;
     justify-content: center;
 }
+
 .navbar a {
     color: white;
     text-decoration: none;
@@ -21,4 +22,21 @@ body {
 .navbar a:hover {
     background-color: #1E90FF; /* Bright blue hover effect */
 }
-    
+.stylish {
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(135deg, #1E90FF, #00008B); /* Gradient for stylish effect */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    text-align: center;
+}
