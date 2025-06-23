@@ -1,0 +1,78 @@
+.languages-container {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #dfe9f3 0%, #ffffff 100%);
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.languages-container h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tech-section {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: rotate(5deg);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #222;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .languages-container h1 {
+    font-size: 28px;
+  }
+
+  .card img {
+    height: 70px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+}
