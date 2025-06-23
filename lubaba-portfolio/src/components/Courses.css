@@ -7,20 +7,20 @@ body {
 }
 
 .courses-container {
-  max-width: 800px;
-  margin: 60px auto;
+  max-width: 900px;
+  margin: 30px auto;
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  padding: 40px 60px;
+  padding: 20px 30px;
 }
 
 .courses-container h1 {
-  font-size: 36px;
+  font-size: 30px;
   margin-bottom: 30px;
   color: #2c3e50;
   border-left: 5px solid #3498db;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 .courses-container ol {
@@ -28,7 +28,7 @@ body {
 }
 
 .courses-container li {
-  font-size: 18px;
+  font-size: 14px;
   padding: 15px 20px;
   margin-bottom: 10px;
   background: #f0f8ff;
@@ -49,10 +49,10 @@ body {
   }
 
   .courses-container h1 {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .courses-container li {
-    font-size: 16px;
+    font-size: 10px;
   }
 }

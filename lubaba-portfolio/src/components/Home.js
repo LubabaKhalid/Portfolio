@@ -9,14 +9,14 @@ const Home = () => {
       <div style={styles.textSection}>
         <div style={styles.box}>
           <h2><Link to="/" style={styles.link}>Lubaba Khalid</Link></h2>
-          <small>
+          <small style={styles.small}>
             Lubaba Khalid is a student at the Department of Data Science, University of the Punjab (PU), Lahore, Pakistan.
           </small>
         </div>
 
         <div style={styles.box}>
           <p><strong>GitHub Profile:</strong></p>
-          <small>
+          <small style={styles.small}>
             <a href="https://github.com/LubabaKhalid" target="_blank" rel="noreferrer" style={styles.link}>
               github.com/LubabaKhalid
             </a>
@@ -25,7 +25,7 @@ const Home = () => {
 
         <div style={styles.box}>
           <p><strong>LinkedIn Profile:</strong></p>
-          <small>
+          <small style={styles.small}>
             <a href="https://www.linkedin.com/in/lubaba-khalid-a42147319/" target="_blank" rel="noreferrer" style={styles.link}>
               linkedin.com/in/lubaba-khalid
             </a>
@@ -34,26 +34,28 @@ const Home = () => {
 
         <div style={styles.box}>
           <p><strong><Link to="/courses" style={styles.link}>Courses</Link></strong></p>
-          <small>Overview of courses taken.</small>
+          <small style={styles.small}>Overview of courses taken.</small>
         </div>
 
         <div style={styles.box}>
-          <p><strong><Link to="/skills" style={styles.link}>Hobbies</Link></strong></p>
-          <small>Overview of hobbies acquired.</small>
+          <p><strong><Link to="/hobbies" style={styles.link}>Hobbies</Link></strong></p>
+          <small style={styles.small}>Overview of hobbies acquired.</small>
         </div>
 
         <div style={styles.box}>
           <p><strong><Link to="/languages" style={styles.link}>Languages</Link></strong></p>
-          <small>Programming languages known.</small>
+          <small style={styles.small}>Programming languages known.</small>
         </div>
 
         <div style={styles.box}>
           <p><strong><Link to="/contact" style={styles.link}>Contact</Link></strong></p>
-          <small>Your message is important to me.</small>
+          <small style={styles.small}>Your message is important to me.</small>
         </div>
       </div>
 
-      <img src={lubabaImg} alt="Lubaba Khalid" style={styles.image} />
+      <div style={styles.imageWrapper}>
+        <img src={lubabaImg} alt="Lubaba Khalid" style={styles.image} />
+      </div>
     </div>
   );
 };
@@ -83,8 +85,17 @@ const styles = {
     color: '#004aad',
     textDecoration: 'none',
   },
-  image: {
+  small: {
+    fontSize: '14px',
+    color: '#555',
+  },
+  imageWrapper: {
     maxWidth: '250px',
+    width: '100%',
+    textAlign: 'center',
+  },
+  image: {
+    width: '100%',
     height: 'auto',
     borderRadius: '12px',
     boxShadow: '0 0 8px rgba(0, 0, 0, 0.1)',

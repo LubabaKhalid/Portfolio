@@ -19,7 +19,7 @@ function AppWrapper() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/languages" element={<Languages />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/hobbies" element={<Skills />} />
       </Routes>
     </>
   );
