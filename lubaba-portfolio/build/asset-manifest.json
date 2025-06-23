@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.94791cd3.css",
+    "main.js": "/static/js/main.1e6bc83c.js",
+    "static/js/453.f9189e23.chunk.js": "/static/js/453.f9189e23.chunk.js",
+    "static/media/lubaba.jpeg": "/static/media/lubaba.43f8029e5db6c1539609.jpeg",
+    "index.html": "/index.html",
+    "main.94791cd3.css.map": "/static/css/main.94791cd3.css.map",
+    "main.1e6bc83c.js.map": "/static/js/main.1e6bc83c.js.map",
+    "453.f9189e23.chunk.js.map": "/static/js/453.f9189e23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94791cd3.css",
+    "static/js/main.1e6bc83c.js"
+  ]
+}
