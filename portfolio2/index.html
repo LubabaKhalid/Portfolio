@@ -114,8 +114,8 @@
         }
 
         .btn-secondary:hover {
-            background: var(--secondary);
-            border-color: var(--secondary);
+            background: var(--primary);
+            border-color: var(--primary);
             box-shadow: 0 10px 20px rgba(255, 107, 107, 0.2);
         }
 
@@ -1073,10 +1073,15 @@
                 <!-- Place this inside your <body> tag -->
 <div class="contact-form fade-in">
   <h3>Send a Message</h3>
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thank-you.html">
 
-  <form name="contact" method="POST" data-netlify="true">
-    <!-- Required hidden input -->
+    <!-- Required hidden inputs -->
     <input type="hidden" name="form-name" value="contact" />
+
+    <!-- Honeypot field to block bots -->
+    <p hidden>
+      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+    </p>
 
     <div class="form-group">
       <input type="text" name="name" placeholder="Your Name" required />
@@ -1096,7 +1101,10 @@
 
     <button type="submit" class="btn">Send Message</button>
   </form>
+  <!-- Success message (initially hidden) -->
+  
 </div>
+
 
             </div>
         </div>
